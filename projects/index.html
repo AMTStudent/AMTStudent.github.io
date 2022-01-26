@@ -2,33 +2,94 @@
 <html>
     <head>
             <title>Aarons Website</title>
-    </head>
+            <style>
+                body {
+                    background: rgb(125, 198, 205);
+                    color: rgb(45, 45, 45);
+                    padding: 10px;
+                    font-family: arial;
+                }
+                #all-contents {
+                  max-width: 800px;
+                    margin: auto;
+                }
+             
+                /* navigation menu */
+                nav {
+                    background: rgb(6, 37, 18);
+                   margin: 0 auto;
+                   margin-bottom: 20px;
+                    display: flex;
+                    padding: 10px;
+                }
+                h1 {
+                    display: flex;
+                    align-items: center;
+                    color: rgb(0, 255, 136);
+                    flex: 1;
+                    margin: 0;
+                }
+                #nav-ul {
+                    list-style-image: none;
+                }
+                .nav-li {
+                    display: inline-block;
+                    padding: 0 10px;
+                }
+                a {
+                    text-decoration: none;
+                    color: rgb(0, 255, 136);
+                }
+             
+                /* main container area beneath menu */
+                main {
+                    background: rgb(22, 129, 84);
+                    display: flex;
+                }
+                .sidebar {
+                    margin-right: 25px;
+                    padding: 10px;
+                }
+                .sidebar-img {
+                    width: 200px;
+                }
+                .content {
+                    flex: 1;
+                    padding: 15px;
+                }
+                #interests {
+                    border: 4px rgb(0, 255, 255) ridge;
+                    padding: 8px;
+                }
+                h2, h3 {
+                    margin: 0px;
+                }
+             </style>
+        </head>
 
 <body>
-    <div> 
+    <div id=all-contents> 
         <nav>
 <h1>Aarons Website</h1>
-<ul>
-    <li><a href="index.html">Home</a>
+<ul id=nav-ul>
+    <li class=nav-li><a href="index.html">Home</a>
     </li>
-    <li><a href="portfolio.html">Portfolio</a>
+    <li class=nav-li><a href="portfolio.html">Portfolio</a>
     </li>
 </ul>
         </nav>
         
         <main>
             <!--sidebar section-->
-            <div>
-<img src="https://i.pinimg.com/originals/e4/77/69/e4776903fcba81782c98ce8338d43373.jpg"
-width="250"
-height="300"/>
+            <div class=sidebar>
+<img class=sidebar-img src=https://thumbnail.imgbin.com/19/6/16/imgbin-undertale-watercolor-painting-tag-sketch-others-c2Nf8eQVAuHEdFJENXcERpVGM_t.jpg>
             </div>
 <!--content section-->
-            <div>
+            <div class=content>
                 <h2>Aaron Thomas</h2>
                 <p>Student at St.Amant High</p>
                 <!-- Interests section-->
-                <div>
+                <div id=interests>
                     <h3>Interests</h3>
                     <ul>
                         <li>Gaming(Minecraft, Roblox, Terraria)</li>
