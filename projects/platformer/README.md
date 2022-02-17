@@ -269,7 +269,7 @@ For this project and all future projects, you'll commit and push work more frequ
     * `git commit -m '<message about commit>'`
 
 
-        * Note: For the  `<message about commit>` you can pass in any message stating the resason for why you are pushing to github. Such as, `git commit -m 'added platforms and collectables to game`
+        * Note: For the  `<message about commit>` you can pass in any message stating the resason for why you are pushing to github. Such as, `git commit -m 'added platforms and collectables to game'`
 
 
     * `git push`
